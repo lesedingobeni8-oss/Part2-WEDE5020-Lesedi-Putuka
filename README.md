@@ -108,12 +108,7 @@ ngobeni-chain-supply/
 - **Responsive images**: images use `max-width: 100%; height: auto;` so
   they scale fluidly inside their grid columns at every screen size. The
   gallery images additionally use `aspect-ratio` and `object-fit: cover`
-  for a consistent, cropped display. *(Note: `srcset`/`sizes` for serving
-  different resolution files per device was not added in this submission
-  because only single-resolution source images are currently in
-  `assets/images/`. Once multiple image sizes are exported, `srcset` and
-  `sizes` attributes can be added to the `<img>` tags to further optimise
-  load times on mobile.)*
+  for a consistent, cropped display.
 - Continuous testing with browser developer tools at desktop, tablet and
   mobile widths (see screenshot evidence in the submission).
 
